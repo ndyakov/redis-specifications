@@ -138,7 +138,7 @@ structured commands like `SET mykey somevalue` or `SADD myset a b c d`. Such
 commands can be represented as arrays, where each argument is an array element,
 so this is the only type the client needs to send to a server. However different
 applications willing to use RESP3 for other goals may just allow the protocol
-to be used in a "full duplex" fashion where both the ends can use the full set
+to be used in a "full duplex" fashion where both ends can use the full set
 of types available.
 
 Not all parts of RESP3 are mandatory for clients and servers. In the specific
